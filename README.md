@@ -21,7 +21,14 @@ The linear model is reasonably predicting the mpg of Mechacar prototypes. But it
 We can try and create more simple and multiple linear regression models to create more accurate predictive models.
 
 ## Summary Statistics on Suspension Coils
+The design specifications dictate that the variance for the suspension coils must not exceed 100 PSI. The total summary across all suspension coil lots indicate a variance of 62.3 which is below the design specification.
+But if we look at individual lots, the Lot 3 variance is higher than 100 PSI.The Lot 3 doesnt meet the design specification for the PSI.  
 
 
 ## T-Tests on Suspension Coils
 
+If p-value is not significant then we dont have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
+
+- The PSI across all manufacturing lots is statistically similar to the population mean as thge p-value is not statistically significant
+- The Lot1 and Lot2 p-values are significant, which indicates we have sufficient evidence to reject the null hypothesis. So the Lot1 mean and Lot2 mean are statistically different from the population mean.
+- The Lot3 p-value is not statistically significant, so we can say that the Lot3 mean is statistically similar to the population mean. 
